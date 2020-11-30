@@ -1,6 +1,8 @@
 # Multimodal Trajectory Prediction via Topological Invariance for Navigation at Uncontrolled Intersections
 This is an implementation of CoRL 2020 paper "Multimodal Trajectory Prediction via Topological Invariance for Navigation at Uncontrolled Intersections" by Roh et al. [[arxiv](https://arxiv.org/abs/2011.03894)][[project](https://sites.google.com/view/multiple-topologies-prediction)]
 
+![MTP Figure](/misc/mtp.png)
+
 ## Citing the paper
 If you use "Multimodal Trajectory Prediction via Topological Invariance for Navigation at Uncontrolled Intersections" in your research, please cite the paper:
 ```bibtex

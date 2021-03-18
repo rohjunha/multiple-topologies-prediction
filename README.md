@@ -24,7 +24,7 @@ You would be able to run the evaluation code if you follow the instruction step 
 We recommend using `anaconda` to setup the environment for the code.
 Here's a list important libraries that are used in the code:
 * python==3.8
-* pytorch==1.5
+* pytorch==1.8
 These libraries will be installed if you follow the guide below.
  
 #### Install guide
@@ -34,12 +34,13 @@ These libraries will be installed if you follow the guide below.
 1. With the conda environment `mtp` activated, run `pip install -r requirements.txt`.
 1. With the conda environment `mtp` activated, run commands below.
 ```
-pip install torch-scatter==latest+cu102 -f https://pytorch-geometric.com/whl/torch-1.5.0.html
-pip install torch-sparse==latest+cu102 -f https://pytorch-geometric.com/whl/torch-1.5.0.html
-pip install torch-cluster==latest+cu102 -f https://pytorch-geometric.com/whl/torch-1.5.0.html
+pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.8.0+cu102.html
+pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.8.0+cu102.html
+pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.8.0+cu102.html
 pip install torch-geometric
 ```
 1. Run `bash run.sh` for download and extract CARLA binary, checkpoint and config files for the experiment.
+1. Run `source env.sh` for adding paths to `$PYTHONPATH` and activate the environment `mtp`.
 
 ### Run simulator with specific port
 We have to load the map first (`Town04`) and specify the port to communicate with. 

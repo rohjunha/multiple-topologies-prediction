@@ -39,7 +39,9 @@ pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.8.0+cu102.
 pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.8.0+cu102.html
 pip install torch-geometric
 ```
-1. Run `bash run.sh` for download and extract CARLA binary, checkpoint and config files for the experiment.
+1. Download the checkpoint [link](https://drive.google.com/file/d/1IkyK2UjbylBv-FVmvI-qdnjbro-o5CoC/view?usp=drive_link) and the configuration file [link](https://drive.google.com/file/d/1_5XGLHbroCUPnoaQwnqbmGzBUHcBxBBa/view?usp=sharing).
+1. Extract files to the root directory.
+1. Run `bash run.sh` for download and extract CARLA binary for the experiment.
 1. Run `source env.sh` for adding paths to `$PYTHONPATH` and activate the environment `mtp`.
 
 ### Run simulator with specific port
